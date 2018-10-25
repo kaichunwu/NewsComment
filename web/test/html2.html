@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>This is a website2.</title>
+<!--script src="library.js"></script-->
+<script src="javascript1.js"></script>
+<!--script src="EventUtil.js"></script-->
+</head>
+<body>
+<h1 style="color:red">Javascript</h1>
+<script>
+function moveon(){
+	var answer = confirm("ready?");
+	if (answer) window.location = "http://www.google.com";
+}
+//setTimeout(moveon,10000);
+</script>
+
+<button type="button" onclick="moveon()">
+<img src="http://5b0988e595225.cdn.sohucs.com/images/20170808/2e82aa78dd894cb8b5dbcb06083c53f4.jpeg" width="120"/>
+</button>
+<p id="demo">hello</p>
+<button type="button" onclick="displayDate()">displaydate</button><br />
+<!--input type="text" id="call" /-->
+<input onKeyPress="if (event.keyCode!=42 && event.keyCode!=43 && (event.keyCode<45 || event.keyCode>57)) event.returnValue=false" id="cal" />
+<button type="button" onclick="calall()">calcurlate</button>
+<p id="res">result</p>
+<div class="mediaplayer">
+<div class="video">
+<video src="NIIX6776.MOV" poster="IMG_0433.jpg" id="player">Video player not available.</video>
+</div>
+<div class="controls">
+	<button type="button" value="play" id="video-btn">Play</button>
+	<span id="curtime">0</span>/<span id="duration">0</span>
+</div>
+</div>
+
+<form action="">
+<p>
+<label>Username:</label>
+<input placeholder="Username"/>
+</p>
+<p>
+<label>Password:</label>
+<input type="password" placeholder="Password"/>
+</p>
+<button type="submit">Submit</button>
+</form>
+
+<script>
+	window.onload=function(){
+	var player=document.getElementById("player");
+	var btn=document.getElementById("video-btn");
+	var curtime=document.getElementById("curtime");
+	var duration=document.getElementById("duration");
+	duration.innerHTML=player.duration;
+	addHandler(btn,"click",function(event){
+		if(player.paused){
+			player.play();
+			btn.value="Pause";
+		}
+		else{
+			player.pause();
+			btn.value="Play";
+		}
+	});
+	setInterval(function(){
+		curtime.innerHTML=player.currentTime;
+	},250);
+	}
+</script>
+
+</body>
+</html>
