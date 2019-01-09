@@ -11,7 +11,7 @@ The users need to sign up for a new account to log in the software. As a normal 
 ![picture](web/demo/final2.png) 
 ## Database Logic
 ![picture](web/demo/Final.png) 
-## Web Demo
+## [Web Demo](http://13.59.117.92:8080/regist)
 ![picture](web/demo/1.jpg) 
 ## Interfaces
 * Java Standard Edition Development Kit or Java Standard Edition Runtime Environment 8(Version 1.8)
