@@ -6,10 +6,13 @@ This software aims to provide an application for people to save some personal in
 The users need to sign up for a new account to log in the software. As a normal user, one only needs his username and password to get the account. But for the supervisor, there is also a unique verify number needed to verify the user can be a supervisor. After signing up, the user can use the new account to log in to his user home page. He can add his personal information on the manage information page. He can also see his personal information. If he wants to add some comments on the topic he likes, he can do that. And these functions can also be used by supervisor. But the supervisor has more rights on the comment, which let him delete the comment.
 ## Low-level Design
 ### Server
+![picture](web/demo/final1.png) 
 ### Client
+![picture](web/demo/final2.png) 
 ## Database Logic
+![picture](web/demo/Final.png) 
 ## Web Demo
-
+![picture](web/demo/1.jpg) 
 ## Interfaces
 * Java Standard Edition Development Kit or Java Standard Edition Runtime Environment 8(Version 1.8)
 * Spring Source dm Server v3.2.8
