@@ -1,11 +1,11 @@
 # News Comment
-## [Web Demo](http://13.59.117.92:8080/regist)
-![picture](web/demo/1.jpg) 
 ## Introduction
 ### Overview
 This software aims to provide an application for people to save some personal information. And also, there are some topics of news on the application that let the user to add some comments on the topics. On the other hand, the supervisor can manage the comments, such as delete the comments that are not suitable.
 ### Functions
 The users need to sign up for a new account to log in the software. As a normal user, one only needs his username and password to get the account. But for the supervisor, there is also a unique verify number needed to verify the user can be a supervisor. After signing up, the user can use the new account to log in to his user home page. He can add his personal information on the manage information page. He can also see his personal information. If he wants to add some comments on the topic he likes, he can do that. And these functions can also be used by supervisor. But the supervisor has more rights on the comment, which let him delete the comment.
+## [Web Demo](http://13.59.117.92:8080/regist)
+![picture](web/demo/1.jpg) 
 ## Low-level Design
 ### Server
 ![picture](web/demo/final1.png) 
