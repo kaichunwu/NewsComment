@@ -1,4 +1,6 @@
 # News Comment
+## [Web Demo](http://13.59.117.92:8080/regist)
+![picture](web/demo/1.jpg) 
 ## Introduction
 ### Overview
 This software aims to provide an application for people to save some personal information. And also, there are some topics of news on the application that let the user to add some comments on the topics. On the other hand, the supervisor can manage the comments, such as delete the comments that are not suitable.
@@ -11,8 +13,6 @@ The users need to sign up for a new account to log in the software. As a normal 
 ![picture](web/demo/final2.png) 
 ## Database Logic
 ![picture](web/demo/Final.png) 
-## [Web Demo](http://13.59.117.92:8080/regist)
-![picture](web/demo/1.jpg) 
 ## Interfaces
 * Java Standard Edition Development Kit or Java Standard Edition Runtime Environment 8(Version 1.8)
 * Spring Source dm Server v3.2.8
